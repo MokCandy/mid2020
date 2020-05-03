@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>contact page~</title>
+
+  <link href="index.css" type="text/css" rel="stylesheet"/>
+  <link href="etc.css" type="text/css" rel="stylesheet"/>
+  <link href="contact.css" type="text/css" rel="stylesheet"/>
+  <!--CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+  <!--font-->
+
+
+</head>
+<body>
+  <div class="container">
+    <form action>
+  
+      <label for="fname">이름</label>
+      <input type="text" id="name" name="name" placeholder="당신의 이름은?">
+  
+      <label for="title">제목</label>
+      <input type="text" id="title" name="title" placeholder="제목을 적어주세요.">
+  
+      <label for="purpose">목적</label>
+      <select id="purpose" name="purpose">
+        <option value="life"">일상</option>
+        <option value="study">학업</option>
+        <option value="party">행사</option>
+        <option value="etc">기타</option>
+      </select>
+  
+      <label for="subject">내용</label>
+      <textarea id="subject" name="subject" placeholder="내용을 적어주세요." style="height:500px"></textarea>
+      <input type="submit" value="보내기">
+  
+    </form>
+ 
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>home page~</title>
+
+  <link href="index.css" type="text/css" rel="stylesheet"/>
+  <link href="etc.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+  <!--font-->
+
+  <script>
+    //navbar 기능 실행 함수
+    function navfunc() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">초기화면</a>
+  <a href=home.html target=_top>Home</a>
+  <a href=profile.html target=next_page>Profile</a>
+  <a href=hobby.html target=next_page>Hobby</a>
+  <a href=portfolio.html target=next_page>Portfolio</a>
+  <a href=contact.html target=next_page>Contact</a>
+  <a href=dev_info.html target=next_page>Dev_info</a>
+  <a href="javascript:void(0);" class="icon" onclick="navfunc()">
+    <!--모바일용 메뉴 아이콘-->
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<br>
+      <div class="div_center">
+        <!--익스플로어 브라우저용 이미지-->
+        <iframe src="https://cdn.pixabay.com/photo/2017/10/04/11/45/internet-explorer-2815927_1280.jpg" srcdoc="
+        <body>
+          <center>
+          <!--iframe 태그가 표준 규격이 안 맞는것이 많네요 ㅠㅠ-->
+          <h2>당신을 크롬을 쓰시는 군요!</h2>
+          <img src=https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg style=width:100%;>
+          </center>
+        </body>
+        </html>" 
+        style= "width:90%; height: 85vh" name="next_page" >
+        <!-- 아이프레임 크기 설정 및 태그 사용-->
+      </iframe>
+      </div>
+   
+  <footer class="footer_bottom">
+    <p>copyrigt ⓒ ㅁㅁㅁ</p>
+  </footer>
+</body>
+</html>
